@@ -2,6 +2,7 @@
   "version": "3",
   "redirects": {
     "https://deno.land/x/crayon/mod.ts": "https://deno.land/x/crayon@3.3.3/mod.ts",
+    "https://deno.land/x/tty/mod.ts": "https://deno.land/x/tty@0.1.4/mod.ts",
     "https://deno.land/x/tui/mod.ts": "https://deno.land/x/tui@2.1.6/mod.ts"
   },
   "remote": {
@@ -48,6 +49,15 @@
     "https://deno.land/x/crayon@3.3.3/src/crayon.ts": "6b237baa08a31c903436e040afd2228a7fffaa5d11dddc58e3c402f79b3c1d04",
     "https://deno.land/x/crayon@3.3.3/src/styles.ts": "aa588b57b2c0482dc5c6f53109b4287831a9827c0aeef9a88129beae1172c1ee",
     "https://deno.land/x/crayon@3.3.3/src/util.ts": "af8884a917488de76ac0c2b92482093ade74514ece77a4c64e5eb5b0f6ed68e6",
+    "https://deno.land/x/tty@0.1.4/ansi_regex.ts": "1d3b0c7289164f93c9ebafe3bbd05a723568a250cc5c29c0cc922ff55af9a238",
+    "https://deno.land/x/tty@0.1.4/combining.ts": "a615e9479d8bc901e3a727e5cae83c0aa1d4ca1e75fa040861d9905d16b30ffc",
+    "https://deno.land/x/tty@0.1.4/is_interactive.ts": "37080d92399827215e60a57d97013aefbdbc038e7a5d2346abd298a7010525e6",
+    "https://deno.land/x/tty@0.1.4/mod.ts": "65f44c03d7c3daee2b87c6a2a20b0653dec9e3b4ece8183bb0a82233a0e05ff0",
+    "https://deno.land/x/tty@0.1.4/strip_ansi.ts": "6671d8d44da192a713aac06fb9a0959a3c0b11a161438fdf540856e2208857d9",
+    "https://deno.land/x/tty@0.1.4/tty_async.ts": "cbcdc8132754084153680dd3fbc73acb58e0b9232aff09897a46edcf6f637967",
+    "https://deno.land/x/tty@0.1.4/tty_sync.ts": "ad5d986dbd561e5768c49bf48a54580521bdfe95aa41869e8c84d99dbae0ff08",
+    "https://deno.land/x/tty@0.1.4/util.ts": "fd50eb009b46f01461f3d38decaf4366c4970bbd818edc39b58a574efe67dbb7",
+    "https://deno.land/x/tty@0.1.4/wcwidth.ts": "ab712adbbe4a07c27cc0ab89b99c3a77d28fe911c0fd1c8cebd867efc1fb4416",
     "https://deno.land/x/tui@2.1.6/mod.ts": "b32347385f2efc7dd90a9e5f6386fded9bde505e3f1c4b07b8509c77206d15a6",
     "https://deno.land/x/tui@2.1.6/src/canvas/box.ts": "3f6a41af65942b069795d895c2a73d039a83ba35c01b5236ea88d1de65ba3ebf",
     "https://deno.land/x/tui@2.1.6/src/canvas/canvas.ts": "31daa080882956f19f5bf8a6b52f7a946ebc34bdba103b007ce4e73c2b922409",

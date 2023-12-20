@@ -9,7 +9,7 @@ async function main() {
   try {
     const mod = await import(`./days/day${day}.ts`);
     const instance = new mod[`Day${day}`]();
-    (instance as Day).run();
+    await (instance as Day).run();
     await main();
   } catch (e) {
     console.log("Day not implemented yet", e);
@@ -22,7 +22,7 @@ if (Deno.args.length === 1) {
   try {
     const mod = await import(`./days/day${day}.ts`);
     const instance = new mod[`Day${day}`]();
-    (instance as Day).run();
+    await (instance as Day).run();
   } catch (e) {
     console.log("Day not implemented yet", e);
   }

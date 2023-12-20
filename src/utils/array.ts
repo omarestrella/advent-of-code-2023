@@ -32,3 +32,7 @@ export function takeWhile<T>(array: T[], predicate: (x: T) => boolean) {
   }
   return results;
 }
+
+export function max(array: number[]) {
+  return array.reduce((a, b) => (a > b ? a : b), -Infinity);
+}
